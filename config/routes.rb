@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   devise_for :users
   devise_for :views
-  root "pages#home" # creates root_path
+  root "pins#index" # creates root_path
   get "about" => "pages#about" # creates about_path
 
 
